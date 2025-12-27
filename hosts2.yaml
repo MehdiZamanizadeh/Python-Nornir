@@ -1,0 +1,16 @@
+---
+
+R1:
+  hostname: 192.168.5.129
+  groups:
+    - Cisco
+  data:
+     community: Cisco.com
+     OS_Type: IOS XE
+SW1:
+  hostname: 192.168.5.130
+  groups:
+    - Cisco
+  data:
+     community: Cisco.com
+     OS_Type: NX OS
