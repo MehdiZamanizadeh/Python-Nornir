@@ -1,0 +1,27 @@
+---
+
+R1:
+  hostname: 192.168.5.129
+  platform: ios
+  data:
+    snmp:
+      location: "Vienna-DC"
+      contact: "noc@example.com"
+      traps: enable
+      communities:
+        - name: public
+          access: ro
+        - name: private
+          access: rw
+
+SW1:
+  hostname: 192.168.5.130
+  platform: ios
+  data:
+    snmp:
+      location: "Vienna-Edge"
+      contact: "noc@example.com"
+      traps: enable
+      communities:
+        - name: public
+          access: ro
