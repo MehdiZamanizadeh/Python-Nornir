@@ -1,0 +1,19 @@
+---
+
+R1:
+  hostname: 192.168.5.129
+  platform: ios
+  data:
+    backup:
+     commands:
+        - show running-config
+        - show version
+
+SW1:
+  hostname: 192.168.5.130
+  platform: ios
+  data:
+    backup:
+     commands:
+        - show running-config
+        - show version
