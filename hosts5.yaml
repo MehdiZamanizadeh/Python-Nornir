@@ -1,0 +1,25 @@
+---
+
+R1:
+  hostname: 192.168.5.129
+  groups:
+    - Cisco
+    - Router
+  data:
+    community: Test-community
+    city: babol
+    series: isr
+    grade: sp
+    as: 65001
+
+SW1:
+  hostname: 192.168.5.130
+  groups:
+    - Cisco
+    - Switch
+  data:
+    community: Test-community
+    city: babolsar
+    series: catalyst
+    grade: enterprise
+    as: 65000
