@@ -13,4 +13,5 @@ nr_filter2 = nr.filter( F(city="babolsar") | F(grade="enterprise") & F(as__le="6
 results=nr_filter.run(task=netmiko_send_commands_example)
 results2=nr_filter2.run(task=netmiko_send_commands_example)
 print_result(results)
+
 print_result(results2)
