@@ -1,0 +1,5 @@
+router ospf {{ host.hdata.ospf.process_id }}
+router-id {{ host.hdata.ospf.router_id }}
+{% for network in host.hdata.ospf.networks %}
+network {{ network }}
+{% endfor %}
